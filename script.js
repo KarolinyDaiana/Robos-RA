@@ -7,5 +7,6 @@ roboTodo.addEventListener("targetFound", event => {
 })
 
 fechar.addEventListener('click', function() {
+    console.log("teste");
     geral.style.display = 'none';
 })
