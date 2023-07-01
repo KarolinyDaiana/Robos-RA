@@ -37,7 +37,9 @@ p{
 }
 
 #fechar{
-    background-color: rgb(250, 238, 230);
+    border: 2px solid rgb(250, 238, 230);
     color: black;
+    border-radius: 8px;
+
 }
 
