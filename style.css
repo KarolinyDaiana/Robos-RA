@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
 #texto-geral {
     display: none;
     z-index: 99999;
 
     position: relative;
 
-    border: 2px solid aqua;
-    background-color: antiquewhite;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid rgb(202, 53, 53);
+    background-color: rgb(192, 83, 83);
+    border-radius: 1rem;
+
+    color: rgb(250, 238, 230);
+    font-family: 'Martian Mono', monospace;
+    font-size: 0.8rem;
+
+    margin: 5px;
+    padding: 5px;
+
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.fechar{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin-right: 1rem;
+}
+
