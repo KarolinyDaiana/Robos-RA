@@ -1,7 +1,7 @@
 const geral = document.getElementById("texto-geral");
 const roboEnt = document.getElementById("robo-todo");
 
-const fechar = document.getElementsByClassName("fechar");
+const fechar = document.getElementsByClassName("fecharr");
 
 const garra = document.getElementById("texto-garra");
 const garraEnt = document.getElementById("robo-garra");
