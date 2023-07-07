@@ -1,6 +1,6 @@
 const geral = document.getElementById("texto-geral");
 const roboEnt = document.getElementById("robo-todo");
-const fechar = document.getElementById("fechar");
+const fechar = document.getElementsByClassName("fechar");
 const garra = document.getElementById("texto-garra");
 const garraEnt = document.getElementById("robo-garra");
 const sensor = document.getElementById("texto-sensor");
