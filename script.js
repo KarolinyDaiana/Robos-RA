@@ -5,6 +5,7 @@ limpar.addEventListener('click', function() {
     garra.style.display = 'none';
     sensor.style.display = 'none';
     motor.style.display = 'none';
+    rodas.style.display = 'none';
 
     console.log("limpei")
 })
@@ -19,7 +20,7 @@ roboEnt.addEventListener("targetFound", event => {
 })
 
 fechar1.addEventListener('click', function() {
-    console.log("teste");
+    console.log("fechou 1");
     geral.style.display = 'none';
 })
 
@@ -33,7 +34,7 @@ garraEnt.addEventListener("targetFound", event => {
 })
 
 fechar2.addEventListener('click', function() {
-    console.log("teste");
+    console.log("fechou 2");
     garra.style.display = 'none';
 })
 
@@ -47,7 +48,7 @@ sensorEnt.addEventListener("targetFound", event => {
 })
 
 fechar3.addEventListener('click', function() {
-    console.log("teste");
+    console.log("fechou 3");
     sensor.style.display = 'none';
 })
 
@@ -61,7 +62,7 @@ motorEnt.addEventListener("targetFound", event => {
 })
 
 fechar4.addEventListener('click', function() {
-    console.log("teste");
+    console.log("fechou 4");
     motor.style.display = 'none';
 })
 
@@ -75,6 +76,20 @@ rodaEnt.addEventListener("targetFound", event => {
 })
 
 fechar5.addEventListener('click', function() {
-    console.log("teste");
+    console.log("fechou 5");
     rodas.style.display = 'none';
+})
+
+//EV3
+const ev3 = document.getElementById("texto-");
+const ev3Ent = document.getElementById("robo-ev3");
+const fechar6 = document.getElementById("fechar6");
+
+ev3Ent.addEventListener("targetFound", event => {
+    ev3.style.display = 'block';
+})
+
+fechar6.addEventListener('click', function() {
+    console.log("fechou 6");
+    ev3.style.display = 'none';
 })
