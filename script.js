@@ -81,7 +81,7 @@ fechar5.addEventListener('click', function() {
 })
 
 //EV3
-const ev3 = document.getElementById("texto-");
+const ev3 = document.getElementById("texto-ev3");
 const ev3Ent = document.getElementById("robo-ev3");
 const fechar6 = document.getElementById("fechar6");
 
