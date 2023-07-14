@@ -64,3 +64,17 @@ fechar4.addEventListener('click', function() {
     console.log("teste");
     motor.style.display = 'none';
 })
+
+//RODAS
+const rodas = document.getElementById("texto-rodas");
+const rodaEnt = document.getElementById("robo-rodas");
+const fechar5 = document.getElementById("fechar5");
+
+rodaEnt.addEventListener("targetFound", event => {
+    rodas.style.display = 'block';
+})
+
+fechar5.addEventListener('click', function() {
+    console.log("teste");
+    rodas.style.display = 'none';
+})
