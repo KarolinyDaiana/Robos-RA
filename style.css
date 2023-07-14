@@ -154,7 +154,41 @@ p{
 
 }
 
-#texto-motor #texto-rodas #textoev3{
+#texto-motor {
+    display: none;
+    z-index: 99999;
+
+    position: relative;
+
+    border: 2px solid rgb(202, 53, 53);
+    background-color: rgb(216, 64, 64);
+    border-radius: 1rem;
+
+    margin: 20px;
+    padding: 10px;
+
+    box-shadow: 4px 4px;
+
+}
+
+#texto-rodas {
+    display: none;
+    z-index: 99999;
+
+    position: relative;
+
+    border: 2px solid rgb(202, 53, 53);
+    background-color: rgb(216, 64, 64);
+    border-radius: 1rem;
+
+    margin: 20px;
+    padding: 10px;
+
+    box-shadow: 4px 4px;
+
+}
+
+#texto-ev3 {
     display: none;
     z-index: 99999;
 
