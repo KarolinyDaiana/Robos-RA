@@ -1,5 +1,3 @@
-alert("ALERTA")
-
 const limpar = document.getElementById("limpar");
 
 limpar.addEventListener('click', function() {
