@@ -56,11 +56,13 @@ h2{
 
 p{
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    text-align: start;
     color: black;
     font-family: 'Martian Mono', monospace;
-    font-size: 1rem;
+    font-size: 20px;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .botoes{
