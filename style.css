@@ -119,6 +119,13 @@ p{
 
 }
 
+#fechar7{
+    border: 1px solid rgb(31, 30, 30);
+    background-color: rgb(250, 238, 230);
+    color: black;
+    border-radius: 8px;
+}
+
 #texto-geral {
     display: none;
     z-index: 99999;
@@ -205,6 +212,23 @@ p{
 }
 
 #texto-ev3 {
+    display: none;
+    z-index: 99999;
+
+    position: relative;
+
+    border: 2px solid rgb(202, 53, 53);
+    background-color: rgb(216, 64, 64);
+    border-radius: 1rem;
+
+    margin: 20px;
+    padding: 10px;
+
+    box-shadow: 4px 4px;
+
+}
+
+#texto-pecas {
     display: none;
     z-index: 99999;
 
