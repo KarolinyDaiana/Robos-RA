@@ -93,3 +93,17 @@ fechar6.addEventListener('click', function() {
     console.log("fechou 6");
     ev3.style.display = 'none';
 })
+
+//PEÇAS
+const pecas = document.getElementById("texto-pecas");
+const pecasEnt = document.getElementById("robo-pecas");
+const fechar7 = document.getElementById("fechar7");
+
+pecasEnt.addEventListener("targetFound", event => {
+    pecas.style.display = 'block';
+})
+
+fechar7.addEventListener('click', function() {
+    console.log("fechou 7");
+    pecas.style.display = 'none';
+})
