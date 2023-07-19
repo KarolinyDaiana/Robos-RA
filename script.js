@@ -6,6 +6,8 @@ limpar.addEventListener('click', function() {
     sensor.style.display = 'none';
     motor.style.display = 'none';
     rodas.style.display = 'none';
+    ev3.style.display = 'none';
+    pecas.style.display = 'none';
 
     console.log("limpei")
 })
