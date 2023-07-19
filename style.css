@@ -230,8 +230,6 @@ p{
 
 #texto-pecas {
     display: none;
-    justify-content: flex-start;
-    align-items: flex-start;
     z-index: 99999;
 
     position: relative;
